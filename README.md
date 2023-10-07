@@ -54,4 +54,29 @@ I made a comparison based on Joining Year feature. When we look at the graph in 
 
 <img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/JoiningYear.png" width="auto">
 
+In the Payment Tier chart, we can see that more people want to stay in the company when the salary range is between 2.30-3.00.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/PaymentTier.png" width="auto">
+
+When employees are compared with their peers according to the age chart, we see that people between the ages of 24-27 prefer to change jobs more (>50%), while more people in the remaining age group prefer to continue their jobs.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Age.png" width="auto">
+
+For each year of experience, the rate of leaving employees with 0-3 years of experience is between 35-38%. The leaving rates of employees with 4-5 years of experience are 31%, and these rates are 20% and 25% for employees with 6 and 7 years of experience, respectively. We can say that the loyalty rate of employees partially increases as the period spent in the company increases.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/ExperienceInCurrentDomain.png" width="auto"> <img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/ExperienceInCurrentDomain_CrossTab.png" width="auto">
+
+
+### Bivariate Graphics
+I wanted to interpret the data by looking at the heat map graph to better understand the relationship between the columns.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/HeatMap.png" width="auto">
+
+As we can see in the chart, the most relevant columns are Gender and Salary Grade columns. From here we can understand that gender has an impact on salary level. But we can also see that gender and salary grade values do not have much of an impact on the situation of leaving the company.
+The values/attributes most relevant to leaving the company are Joining Year to the Company with a correlation score of 0.20 and City with a correlation score of 0.18. We can also say that these two features have an impact on the Education Level (with 0.14 and 0.15 points).
+
+Considering the comments we received from the heat map, I also wanted to examine the Gender – Payment Tier graph.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/HeatMap.png" width="auto">
+
 

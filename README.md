@@ -35,6 +35,23 @@ The graph showing the number of our target variable is as follows.
 
 As we can see in the chart below; Almost half of those with a master's degree have left their jobs, while the majority of employees with a bachelor's degree and doctorate continue to work in the company.
 
-<img src="[https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/LeaveOrNotCounts.png](https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Education.png)https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Education.png" width="auto">
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Education.png" width="auto">
+
+If we make a comparison considering the city variable; While half of the employees from Pune City have left their jobs, most of the employees from Bangalore and New Delhi have remained with the company.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/City.png" width="auto">
+
+While approximately half of female employees continue to work, the majority of male employees have decided to stay at the company.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Gender.png" width="auto">
+
+The number of employees taking on extra duties is small, but we can say that the EverBenched feature has an impact on employee turnover. Almost half of the employees who took on extra duties left their jobs.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/EverBenched.png" width="auto">
+
+After interpreting the categorical columns, I also interpreted the numerical columns through graphics.
+I made a comparison based on Joining Year feature. When we look at the graph in question, we see that the people who left their jobs were in 2015, 2017 and 2018. But at the same time, if we make a comparison among the people who started working in 2017, most people did not leave their jobs, and almost all of the employees who started in 2018 left their jobs. We can say that the years with the lowest layoff rate were 2012 and 2016.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/JoiningYear.png" width="auto">
 
 

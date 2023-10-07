@@ -77,6 +77,51 @@ The values/attributes most relevant to leaving the company are Joining Year to t
 
 Considering the comments we received from the heat map, I also wanted to examine the Gender – Payment Tier graph.
 
-<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/HeatMap.png" width="auto">
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Gender_PaymentTier.png" width="auto">
+
+Although the difference is not very clear, we see that men are paid more than women.
+
+Again, in the heat map chart, I came to the idea that the City and Starting Year columns had an impact on the Education Level. Looking at the chart below, most of the employees with a bachelor's degree are from Bangalore. We can say that the number of employees with bachelor's and master's degrees is almost the same among employees living in the capital, New Delhi.
+Most of the employees started working in 2017, and most of these employees had a bachelor's degree, while the majority of employees with a master's degree started working in 2017. It can be said that the number of doctoral degrees is almost the same for each year.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Education_City_JoiningYear.png" width="auto">
+
+
+## Modeling with Machine Learning
+While modeling the data with machine learning, I used the Decision Tree Method and the KNN Method.
+
+### Desicion Tree Model
+I used 85% of the data to train the model and 15% to test it. The accuracy rate and error rate of the Decision Tree Model are shown below.
+
+The DecisionTreeClassifier ( ) accuracy score:  80.80
+Mean Absolute Error:   0.19197707736389685
+The confusion_matrix:  [[403  67]
+                        [ 67 161]]
+                         
+I wanted to add the "Confusion Matrix" method, which I saw in some notebooks I reviewed on Kaggle, to my project. In the chart below, “True Label” represents the 15% we used for testing, while “Predicted Label” represents the predictions of the model.
+The Decision Tree Model correctly predicted 403 of the employees who would not quit, but made the wrong decision for 67 employees.
+We can see that he came to the right conclusion for 161 of the laid-off employees, but was wrong about 67 employees.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/DFC_Confusion.png" width="auto">
+
+### K-Nearest Neighboor Model
+Again, I used 85% of the data to train the model and 15% to test it. The accuracy rate and error rate of the Nearest Neighbor Model are shown below.
+
+The KNeighborsClassifier ( ) accuracy score:  79.66
+Mean Absolute Error:   0.2034383954154728
+The confusion_matrix:  [[417  53]
+                        [ 89 139]]
+
+In the KNN Model, as in the Decision Tree Model, in the chart below, "True Label" represents the 15% we use for testing, while "Predicted Label" represents the predictions of the model.
+The KNN Model correctly predicted 417 of the employees who did not quit, but made the wrong decision for 53 employees.
+We can see that he came to the right conclusion for 139 of the employees who were laid off, but was wrong about 89 employees.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/KNN_Confusion.png" width="auto">
+
+
+
+
+
+
 
 

@@ -1,4 +1,4 @@
-# ANALYSIS OF WHY EMPLOYEES LEAVE THEIR JOBS ## Data Analysis and Modeling
+# ANALYSIS OF WHY EMPLOYEES LEAVE THEIR JOBS - Data Analysis and Modeling
 
 ## 1- About Project
 
@@ -18,6 +18,12 @@ For the project assignment, I chose a data set that I thought was suitable for e
 
 First, I checked whether there was a null value in any column in the data set, and then I checked whether there was an outlier value.
 There were lines that repeated themselves. These lines made almost no deviation in the data analysis, that is, they did not lead to a change of opinion, but they reduced the accuracy value in the modeling part by at least 10%. That's why I decided not to delete repetitive lines.
+
+### Univariate Graphics
+I first examined the data based on categorical columns. I interpreted each of them through graphics.
+The graph showing the number of our target variable is as follows.
+
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/LeaveOrNotCounts.png)" width="auto">
 
 
 

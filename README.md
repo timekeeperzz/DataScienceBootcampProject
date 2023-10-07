@@ -5,13 +5,21 @@
 For the project assignment, I chose a data set that I thought was suitable for entry level and modelable. There are a total of 4653 rows and 9 columns in this data set, whose target variable is whether employees in a company quit their jobs or not. The names of these columns and what they mean are as follows.
 
 **Education:** Education Level(Bachelors, Masters and PHD)
+
 **Joining year:** Year of starting work
+
 **City:** Hometowns of Employees
+
 **PaymentTier:** Salary Tier
+
 **Age:** Age of Employees
+
 **Gender:** Gender (Male, Female)
+
 **EverBenched:** Indicates whether an employee is given a temporary job (except for his/her responsibility) (yes or no)
+
 **Eperience in current domain:** Years of experience in the company (in years)
+
 **LeaveOrNot:** Whether they left the job (1: To leave 0: Not to leave)
 
 ## 2-	Exploratory Data Analysis (EDA)
@@ -23,7 +31,10 @@ There were lines that repeated themselves. These lines made almost no deviation 
 I first examined the data based on categorical columns. I interpreted each of them through graphics.
 The graph showing the number of our target variable is as follows.
 
-<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/LeaveOrNotCounts.png)" width="auto">
+<img src="https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/LeaveOrNotCounts.png" width="auto">
 
+As we can see in the chart below; Almost half of those with a master's degree have left their jobs, while the majority of employees with a bachelor's degree and doctorate continue to work in the company.
+
+<img src="[https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/LeaveOrNotCounts.png](https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Education.png)https://github.com/timekeeperzz/DataScienceBootcampProject/blob/main/ProjectGraphics/Education.png" width="auto">
 
 
